@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="rootNode" alignment="CENTER" onMouseClicked="#onClick" prefHeight="259.0" prefWidth="390.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.csbe.modul404.clickcounterfx.ClickCounterController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label fx:id="lblClicked" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="203.0" text="Totally clicked: 0" />
+
+    <Label fx:id="welcomeText" />
+</VBox>

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: RectangleTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+RectangleTest.testCalculateExtent()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "ch.csbe.modul404.geometry.Rectangle.calculateExtent(double, double)" because "this.rectangle" is null
+	at RectangleTest.testCalculateExtent(RectangleTest.java:20)
+
+RectangleTest.testCalculateArea()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "ch.csbe.modul404.geometry.Rectangle.calculateArea(double, double)" because "this.rectangle" is null
+	at RectangleTest.testCalculateArea(RectangleTest.java:26)
+

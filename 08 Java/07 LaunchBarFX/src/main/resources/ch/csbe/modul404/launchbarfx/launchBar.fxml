@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<HBox xmlns:fx="http://javafx.com/fxml/1" fx:id="rootNode" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity"
+      minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="360.0" spacing="10.0"
+      styleClass="rootNode" stylesheets="@launchBar_styled.css" xmlns="http://javafx.com/javafx/18"
+      fx:controller="ch.csbe.modul404.launchbarfx.LaunchBarController">
+    <children>
+        <Button fx:id="btn1" mnemonicParsing="false" onAction="#onIntelliJButtonClick" prefHeight="64.0"
+                prefWidth="64.0" styleClass="btn1" stylesheets="@launchBar_styled.css"/>
+        <Button fx:id="btn2" mnemonicParsing="false" onAction="#onSceneBuilderClick" prefHeight="64.0" prefWidth="64.0"
+                styleClass="btn2" stylesheets="@launchBar_styled.css"/>
+        <Button fx:id="btn3" mnemonicParsing="false" onAction="#onGoogleClick" prefHeight="64.0" prefWidth="64.0"
+                styleClass="btn3" stylesheets="@launchBar_styled.css"/>
+        <Button fx:id="btn4" mnemonicParsing="false" onAction="#onStackOverflowClick" prefHeight="64.0" prefWidth="64.0"
+                styleClass="btn4" stylesheets="@launchBar_styled.css"/>
+        <Button fx:id="btn5" mnemonicParsing="false" onAction="#onCloseClick" prefHeight="64.0" prefWidth="64.0"
+                styleClass="btn5" stylesheets="@launchBar_styled.css"/>
+    </children>
+</HBox>
